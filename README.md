@@ -8,7 +8,7 @@
 </p>
 
 ## :computer: Projeto
-Projeto com Objetivo de comprir o desafio da Monsprospecteur.
+Projeto tem objetivo de comprir o desafio da Monsprospecteur.
 
 ## :wrench: Recursos Utilizados
 - MongoDB
