@@ -1,17 +1,38 @@
-html{
+html {
     background-color: #ecf0f5;
 }
 
 .main-footer {
     position: fixed;
-    bottom:0px;
-    width:100%;
+    bottom: 0px;
+    width: 100%;
 }
 
-#toast-container{
+#toast-container {
     top: 70px;
 }
 
-.table-actions{
+.table-actions {
     width: 140px;
+}
+
+.search-document {
+    min-width: 300px;
+    max-width: 600px;
+    margin-right: 35px;
+    margin-left: 35px;
+}
+
+.count-doc {
+    margin-top: 5px;
+}
+
+.list-doc {
+    margin-left: -20px;
+    margin-top: 10px;
+}
+
+.loading-doc {
+    margin-top: 5px;
+    height: 25px;
 }

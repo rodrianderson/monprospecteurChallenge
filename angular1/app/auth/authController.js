@@ -1,5 +1,5 @@
 (function () {
-    angular.module('primeiraApp').controller('AuthCtrl', [
+    angular.module('monprospecteur').controller('AuthCtrl', [
         '$location',
         'msgs',
         'auth',

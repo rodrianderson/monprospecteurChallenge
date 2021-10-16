@@ -1,4 +1,4 @@
-angular.module('primeiraApp').constant('consts', {
+angular.module('monprospecteur').constant('consts', {
     appName: 'Monprospecteur Challenger',
     version: '1.0',
     owner: 'Anderson Rodrigues',

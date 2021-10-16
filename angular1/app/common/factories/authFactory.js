@@ -1,5 +1,5 @@
 (function () {
-    angular.module('primeiraApp').factory('auth', [
+    angular.module('monprospecteur').factory('auth', [
         '$http',
         'consts',
         AuthFactory

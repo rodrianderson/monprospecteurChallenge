@@ -1,4 +1,4 @@
-angular.module('primeiraApp').config([
+angular.module('monprospecteur').config([
     '$stateProvider',
     '$urlRouterProvider',
     '$httpProvider',

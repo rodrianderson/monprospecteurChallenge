@@ -1,5 +1,5 @@
 (function () {
-    angular.module('primeiraApp').component('field', {
+    angular.module('monprospecteur').component('field', {
         bindings: {
             id: '@',
             label: '@',
