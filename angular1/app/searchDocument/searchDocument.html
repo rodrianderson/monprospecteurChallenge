@@ -1,0 +1,19 @@
+<div ng-controller="SearchDocumentCtrl as ctrl" style="min-width: 300px;max-width: 600px;margin-right: 35px;margin-left: 35px;">
+    <form class="content">
+        <div class="input-group">
+            <input id="authName" ng-model="ctrl.filter" type="text"  name="q" class="form-control" placeholder="Search..."></input>
+            <span class="input-group-btn">
+                <button name="search" id="search-btn" class="btn btn-default"><i
+                        class="fa fa-search"  ng-click="ctrl.getDocuments()"></i></button>
+            </span>
+        </div>
+        <h4>{{ctrl.data.length}} Resultados encontrados</h4> 
+        <h1>{{address}}</h1>
+        <ul class="example-animate-container">
+            <li class="animate-repeat" ng-repeat="auo in ctrl.data">
+                {{auo.address}}
+            </li>
+        </ul>
+    </form>    
+</div>
+
