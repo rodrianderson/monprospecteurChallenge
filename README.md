@@ -14,7 +14,7 @@ Projeto tem objetivo de comprir o desafio da Monsprospecteur.
 - MongoDB
 - Express
 - AngularJS
-- NodeJS
+- NodeJS :V8.12.0
 - Gulp.js
 - Template AdminLTE
 
@@ -24,13 +24,13 @@ Clonar repositório ```git clone https://github.com/rodrianderson/monprospecteur
 
 ### Backend
 
-- Abra a pasta ```monprospecteurChallenge/angular1``` no prompt de comando do Windows.
+- Abra a pasta ```monprospecteurChallenge/backend``` no prompt de comando do Windows.
 - Execute ```npm install``` para instalar os módulos necessários do NodeJs.
 - Execute ```npm run dev``` para iniciar o servidor backend ```localhost:3003\```.
 
 ### Frontend
 
-- Abra a pasta ```monprospecteurChallenge/backend``` no prompt de comando do Windows.
+- Abra a pasta ```monprospecteurChallenge/angular1``` no prompt de comando do Windows.
 - Execute ```npm install``` para instalar os módulos necessários do Gulp.
 - Execute ```npm run dev``` para iniciar o servidor frontend. ```localhost:4000\```.
 
